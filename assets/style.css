@@ -3,7 +3,6 @@
   --color2: #5B7FC5;
 }
 
-
 * {
   padding: 0;
   margin: 0;
@@ -13,6 +12,9 @@ body {
 padding: 0;
 margin: 0;
 }
+
+/* below header section CSS */
+
 
 header {
 height: 60px;
@@ -59,4 +61,15 @@ color: var(--color2);
 padding-left: 3px;
 padding-right: 3px;
 border-bottom: 3px solid var(--color2);
+}
+
+/* above header section CSS */
+/* below main section CSS */
+
+main {
+display: grid;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-template-areas: ;
+
 }
