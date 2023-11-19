@@ -1,7 +1,7 @@
 :root {
   --color1: #87cefa;
   --color2: #5B7FC5;
-  --font1: 28px;
+  --fontsize1: 30px;
 }
 
 * {
@@ -37,9 +37,9 @@ background: var(--color1);
 
 #headername h1, h2 {
 font-family: Arial, Helvetica, sans-serif;
-font-size: var(--font1);
+font-size: var(--fontsize1);
 color: var(--color1);
-padding-right: 20px;
+padding-right: 10px;
 }
 
 #headernavigation {
@@ -71,16 +71,19 @@ main {
 display: grid;
 width: 100%;
 /* below determine structure of grid inc. number of rows & columns and sizes */
-min-height: 1500px;
-grid-template-rows: 1fr 2fr 3fr 1fr 1fr 1fr;
-grid-template-columns: 1fr 1fr 1fr;
+min-height: auto;
+row-gap: 30px;
+column-gap: 30px;
+grid-template-rows: 210px 300px 300px 200px 200px 200px 30px;
+grid-template-columns: 1fr 2fr 2fr;
 grid-template-areas: 
 "hero-image hero-image hero-image"
 "about-me-heading about-me-content about-me-content" 
 "work-heading work-content-large work-content-large"
 "work-heading work-content-small1 work-content-small2"
 "work-heading work-content-small3 work-content-small4"
-"contact-heading contact-content contact-content";
+"contact-heading contact-content contact-content"
+"padding-bottom padding-bottom padding-bottom";
 }
 
 
@@ -130,10 +133,28 @@ grid-area: contact-heading
 grid-area: contact-content
 }
 
+#padding-bottom {
+  grid-area: padding-bottom
+}
+
 
 a {
 text-decoration: none;
 }
+
+#hero-image img {
+  width: 100%;
+  }
+  
+
+.sub-heading-format {
+display: flex;
+border-right: 5px solid var(--color1);
+justify-content: flex-end;
+align-items: flex-start;
+}
+
+
 
 
 
