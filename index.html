@@ -1,34 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets\style.css">
   <title>Ben Sadler Portfolio</title>
-</head>
-<body>
-<header>
-  <div id="headername">
-    <h1>Ben Sadler</h1>
-  </div>
-  <div id="headernavigation">
-    <div class="navbutton">About Me</div> 
-    <div class="navbutton">Work</div>
-    <div class="navbutton">Contact Me</div> 
-    <div class="navbutton">Resume</div>       
-  </div>
-</header>
-<main>
-<div class="about-me-heading"></div>
-<div class="about-me-content"></div>
-<div class="work-heading"></div>
-<div class="work-content-large"></div>
-<div class="work-content-small1"></div>
-<div class="work-content-small2"></div>
-<div class="work-content-small3"></div>
-<div class="work-content-small4"></div>
-<div class="contact-heading"></div>
-<div class="contact-content"></div>
-</main>
-</body>
+  </head>
+  <body>
+
+<!--below is header section using flex display-->
+
+    <header>
+      <div id="headername">
+        <h1>Ben Sadler</h1>
+      </div>
+      <div id="headernavigation">
+        <a href="#about-me-heading"><div class="navbutton">About Me</div></a> 
+        <a href="#work-heading"><div class="navbutton">Work</div></a>
+        <a href="#contact-heading"><div class="navbutton">Contact Me</div></a> 
+        <div class="navbutton">Resume</div>       
+      </div>
+    </header>
+
+<!--below is main section using combination of grid & flex display-->
+
+    <main>
+      <div id="hero-image">
+        <p>Hero image</p>
+      </div> 
+      <div id="about-me-heading">
+        <h2>About Me</h2>
+      </div>
+      <div id="about-me-content">
+        <p>About Me content</p>
+      </div>
+      <div id="work-heading">
+        <h2>Work</h2>
+      </div>
+      <div id="work-content-large">
+        <p>Work content large</p>
+      </div>    
+      <div id="work-content-small1">
+        <p>Work content small1</p>
+      </div>    
+      <div id="work-content-small2">
+        <p>Work content small2</p>
+      </div>     
+      <div id="work-content-small3">
+        <p>Work content small3</p>
+      </div>
+      <div id="work-content-small4">
+        <p>Work content small4</p>
+      </div>
+      <div id="contact-heading">
+        <h2>Contact Me</h2>
+      </div>
+      <div id="contact-content">
+        <p>Contact content</p>
+      </div>
+    </main>
+  </body>
 </html>
+
+

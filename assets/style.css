@@ -1,6 +1,7 @@
 :root {
   --color1: #87cefa;
   --color2: #5B7FC5;
+  --font1: 28px;
 }
 
 * {
@@ -34,9 +35,9 @@ background: var(--color1);
   background: var(--color2);
 }
 
-#headername h1  {
+#headername h1, h2 {
 font-family: Arial, Helvetica, sans-serif;
-font-size: 28px;
+font-size: var(--font1);
 color: var(--color1);
 padding-right: 20px;
 }
@@ -68,8 +69,83 @@ border-bottom: 3px solid var(--color2);
 
 main {
 display: grid;
-grid-template-rows: 1fr 1fr 1fr;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-grid-template-areas: ;
-
+width: 100%;
+/* below determine structure of grid inc. number of rows & columns and sizes */
+min-height: 1500px;
+grid-template-rows: 1fr 2fr 3fr 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-areas: 
+"hero-image hero-image hero-image"
+"about-me-heading about-me-content about-me-content" 
+"work-heading work-content-large work-content-large"
+"work-heading work-content-small1 work-content-small2"
+"work-heading work-content-small3 work-content-small4"
+"contact-heading contact-content contact-content";
 }
+
+
+/* note grid-area does not have to match class title but good practice what is key is gird-area matches what specified in 'grid-template-areas' */
+
+#hero-image{
+grid-area: hero-image
+}
+
+#about-me-heading{
+grid-area: about-me-heading
+}
+
+#about-me-content{
+grid-area: about-me-content
+}
+
+#work-heading{
+grid-area: work-heading
+}
+
+#work-content-large{
+grid-area: work-content-large
+}
+
+#work-content-small1{
+grid-area: work-content-small1
+}
+
+#work-content-small2{
+grid-area: work-content-small2
+}
+
+#work-content-small3{
+grid-area: work-content-small3
+}
+
+#work-content-small4{
+grid-area: work-content-small4
+}
+
+#contact-heading{
+grid-area: contact-heading
+}
+
+#contact-content {
+grid-area: contact-content
+}
+
+
+a {
+text-decoration: none;
+}
+
+
+
+/*--below is media queries for adapting to different media devices
+.GridArea {
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+*/
+
+/*--below is media queries for adapting to different media devices-*/
