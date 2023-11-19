@@ -73,8 +73,8 @@ display: grid;
 width: 100%;
 /* below determine structure of grid inc. number of rows & columns and sizes */
 min-height: auto;
-row-gap: 30px;
-column-gap: 30px;
+row-gap: 20px;
+column-gap: 20px;
 grid-template-rows: 220px 300px 300px 200px 200px 100px 30px;
 grid-template-columns: 300px 2fr 2fr;
 grid-template-areas: 
@@ -91,53 +91,58 @@ grid-template-areas:
 /* note grid-area does not have to match class title but good practice what is key is gird-area matches what specified in 'grid-template-areas' */
 
 #hero-image{
-grid-area: hero-image
+grid-area: hero-image;
 }
 
 #about-me-heading{
-grid-area: about-me-heading
+grid-area: about-me-heading;
 }
 
 #about-me-content{
-grid-area: about-me-content
+grid-area: about-me-content;
 }
 
 #work-heading{
-grid-area: work-heading
+grid-area: work-heading;
 }
 
 #work-content-large{
-grid-area: work-content-large
+grid-area: work-content-large;
+border: 3px solid var(--color2);
 }
 
 #work-content-small1{
-grid-area: work-content-small1
+grid-area: work-content-small1;
+border: 3px solid var(--color2);
 }
 
 #work-content-small2{
-grid-area: work-content-small2
+grid-area: work-content-small2;
+border: 3px solid var(--color2);
 }
 
 #work-content-small3{
-grid-area: work-content-small3
+grid-area: work-content-small3;
+border: 3px solid var(--color2);
 }
 
 #work-content-small4{
-grid-area: work-content-small4
+grid-area: work-content-small4;
+border: 3px solid var(--color2);
 }
 
 #contact-heading{
-grid-area: contact-heading
+grid-area: contact-heading;
 display: flex;
 align-items: center;
 }
 
 #contact-content {
-grid-area: contact-content
+grid-area: contact-content;
 }
 
 #padding-bottom {
-  grid-area: padding-bottom
+  grid-area: padding-bottom;
 }
 
 
@@ -167,6 +172,10 @@ justify-content: space-evenly;
 align-items: center;
 }
 
+#colourchange {
+  color: var(--color1);
+  border-bottom: 3px solid var(--color1);
+}
 
 
 /*--below is media queries for adapting to different media devices
