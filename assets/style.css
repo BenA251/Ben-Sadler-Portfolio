@@ -2,6 +2,7 @@
   --color1: #87cefa;
   --color2: #5B7FC5;
   --fontsize1: 36px;
+  --fontsize2: 20px;
   --fontfamily: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -114,6 +115,8 @@ grid-area: about-me-heading;
 
 #about-me-content{
 grid-area: about-me-content;
+display: flex;
+align-content: flex-start;
 }
 
 #work-heading{
@@ -191,6 +194,11 @@ align-items: center;
   border-bottom: 3px solid var(--color1);
 }
 
+p {
+  color: var(--color1);
+  font-size: var(--fontsize2);
+  font-family: var(--fontfamily);
+}
 
 /*--below is media queries for adapting to different media devices
 .GridArea {
