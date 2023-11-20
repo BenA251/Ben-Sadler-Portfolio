@@ -94,6 +94,20 @@ grid-template-areas:
 grid-area: hero-image;
 }
 
+#subtitle {
+  display: flex;
+  background-color: var(--color2);
+  position: absolute;
+  width: 465px;
+  padding-left: 10px;
+  top: 210px;
+  right: 20px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+
 #about-me-heading{
 grid-area: about-me-heading;
 }
