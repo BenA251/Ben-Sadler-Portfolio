@@ -131,6 +131,9 @@ grid-area: work-heading;
   position: relative;
   border:solid var(--color2);
   border-width: var(--borderwidth2);
+  background-image: url("./images/PortfolioImage.jpg");
+  justify-content: space-around;
+  background-size: cover;
 }
 
 #work-content-small1{
@@ -138,6 +141,9 @@ grid-area: work-heading;
   position: relative;
   border:solid var(--color2);
   border-width: var(--borderwidth2);
+  background-image: url("./images/Refactorcodeimage.jpg");
+  justify-content: space-around;
+  background-size: cover;
 }
 
 #work-content-small2{
@@ -145,6 +151,9 @@ grid-area: work-heading;
   position: relative;
   border:solid var(--color2);
   border-width: var(--borderwidth2);
+  background-image: url("./images/Studyguideimage.jpg");
+  justify-content: space-around;
+  background-size: cover;
 }
 
 #work-content-small3{
@@ -152,6 +161,9 @@ grid-area: work-heading;
   position: relative;
   border:solid var(--color2);
   border-width: var(--borderwidth2);
+  background-image: url("./images/Comingsoonimage.jpg");
+  justify-content: space-around;
+  background-size: cover;
 }
 
 #work-content-small4{
@@ -159,6 +171,9 @@ grid-area: work-heading;
   position: relative;
   border:solid var(--color2);
   border-width: var(--borderwidth2);
+  background-image: url("./images/Comingsoonimage.jpg");
+  justify-content: space-around;
+  background-size: cover;
 }
 
 #contact-heading{
