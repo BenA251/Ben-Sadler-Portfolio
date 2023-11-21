@@ -277,15 +277,41 @@ padding-left:30px;
 }
 
 
+
 /*--below is media queries for adapting to different media devices
-.GridArea {
-  background-position: center;
-  background-size: cover;
-  align-items: center;
-  display: flex;
-  position: relative;
+
+@media only screen and (max-width: 1000px) {
+  
+  main {
+    grid-template-rows: 220px 400px 500px 200px 200px 200px 200px 200px 100px 25px;
+    grid-template-columns: 200px 1fr 35px;
+    grid-template-areas: 
+    "hero-image hero-image hero-image"
+    "about-me-heading about-me-content padding-right" 
+    "work-heading work-content-large padding-right"
+    "work-heading work-content-small1 padding-right"
+    "work-heading work-content-small2 padding-right"
+    "work-heading work-content-small3 padding-right"
+    "work-heading work-content-small4 padding-right"
+    "contact-heading contact-content  padding-right"
+    "padding-bottom padding-bottom padding-bottom";
+    }
+
+
+    */
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
-*/
 
-/*--below is media queries for adapting to different media devices-*/
+
