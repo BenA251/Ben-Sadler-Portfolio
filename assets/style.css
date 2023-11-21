@@ -120,6 +120,7 @@ grid-area: about-me-heading;
 grid-area: about-me-content;
 display: flex;
 align-content: flex-start;
+
 }
 
 #work-heading{
@@ -266,7 +267,14 @@ font-size: 26px;
 color: var(--color1);
 }
 
+#about-me-content img {
+height: 100%;
+width: auto;
+}
 
+#about-me-content p {
+padding-left:30px;
+}
 
 
 /*--below is media queries for adapting to different media devices
