@@ -78,8 +78,8 @@ width: 100%;
 min-height: auto;
 row-gap: 30px;
 column-gap: 30px;
-grid-template-rows: 220px 300px 600px 200px 200px 100px 30px;
-grid-template-columns: 400px 2fr 2fr 25px;
+grid-template-rows: 220px 300px 600px 200px 200px 100px 25px;
+grid-template-columns: 400px 2fr 2fr 15px;
 grid-template-areas: 
 "hero-image hero-image hero-image hero-image"
 "about-me-heading about-me-content about-me-content padding-right" 
@@ -95,6 +95,7 @@ grid-template-areas:
 
 #hero-image{
 grid-area: hero-image;
+position: relative;
 }
 
 #subtitle {
@@ -103,7 +104,7 @@ grid-area: hero-image;
   position: absolute;
   width: 465px;
   padding-left: 10px;
-  top: 210px;
+  bottom: 40px;
   right: 45px;
   height: 50px;
   justify-content: center;
@@ -126,36 +127,44 @@ grid-area: work-heading;
 }
 
 #work-content-large{
-grid-area: work-content-large;
+  grid-area: work-content-large;
+  position: relative;
   border:solid var(--color2);
   border-width: var(--borderwidth2);
 }
 
 #work-content-small1{
-grid-area: work-content-small1;
+  grid-area: work-content-small1;
+  position: relative;
   border:solid var(--color2);
   border-width: var(--borderwidth2);
 }
 
 #work-content-small2{
+  grid-area: work-content-small2;
+  position: relative;
   border:solid var(--color2);
   border-width: var(--borderwidth2);
 }
 
 #work-content-small3{
+  grid-area: work-content-small3;
+  position: relative;
   border:solid var(--color2);
   border-width: var(--borderwidth2);
 }
 
 #work-content-small4{
+  grid-area: work-content-small4;
+  position: relative;
   border:solid var(--color2);
   border-width: var(--borderwidth2);
 }
 
 #contact-heading{
-grid-area: contact-heading;
-display: flex;
-align-items: center;
+  grid-area: contact-heading;
+  display: flex;
+  align-items: center;
 }
 
 #contact-content {
@@ -207,6 +216,43 @@ p {
   font-size: var(--fontsize2);
   font-family: var(--fontfamily);
 }
+
+.workcontentsmall {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  top: 30%;
+  height: auto;
+  background: var(--color2);
+  width: auto;
+  padding:15px
+}
+
+
+.workcontentlarge{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  top: 75%;
+  height: auto;
+  background: var(--color2);
+  width: auto;
+  padding:15px
+}
+
+
+h4 {
+font-family: var(--fontfamily);
+font-size: 26px;
+color: var(--color1);
+}
+
+
+
 
 /*--below is media queries for adapting to different media devices
 .GridArea {
