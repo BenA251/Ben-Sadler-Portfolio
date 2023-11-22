@@ -137,6 +137,12 @@ grid-area: work-heading;
   background-size: cover;
 }
 
+#work-content-large:hover{
+  min-height:auto;
+  background:linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("./images/PortfolioImage.jpg");
+  background-size:cover;
+}
+
 #work-content-small1{
   grid-area: work-content-small1;
   position: relative;
@@ -145,6 +151,12 @@ grid-area: work-heading;
   background-image: url("./images/Refactorcodeimage.jpg");
   justify-content: space-around;
   background-size: cover;
+}
+
+#work-content-small1:hover{
+  min-height:auto;
+  background:linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("./images/Refactorcodeimage.jpg");
+  background-size:cover;
 }
 
 #work-content-small2{
@@ -157,6 +169,12 @@ grid-area: work-heading;
   background-size: cover;
 }
 
+#work-content-small2:hover{
+  min-height:auto;
+  background:linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("./images/Studyguideimage.jpg");
+  background-size:cover;
+}
+
 #work-content-small3{
   grid-area: work-content-small3;
   position: relative;
@@ -167,6 +185,12 @@ grid-area: work-heading;
   background-size: cover;
 }
 
+#work-content-small3:hover{
+  min-height:auto;
+  background:linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("./images/Comingsoonimage.jpg");
+  background-size:cover;
+}
+
 #work-content-small4{
   grid-area: work-content-small4;
   position: relative;
@@ -175,6 +199,12 @@ grid-area: work-heading;
   background-image: url("./images/Comingsoonimage.jpg");
   justify-content: space-around;
   background-size: cover;
+}
+
+#work-content-small4:hover{
+  min-height:auto;
+  background:linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("./images/Comingsoonimage.jpg");
+  background-size:cover;
 }
 
 #contact-heading{
@@ -307,11 +337,6 @@ padding-left:30px;
 
 
 
-
-
-
-
-}
 
 
 
