@@ -40,7 +40,7 @@ The links on top navigation bar can be used to jump to specific sections within 
 
 <strong>Homepage Screenshot:</strong> <br>
 
-![alt text](assets\Images\WebsiteScreenshot.png)
+![alt text](assets/images/WebsiteScreenshot.png)
 
 
 ## Credits
