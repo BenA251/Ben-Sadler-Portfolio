@@ -120,7 +120,6 @@ grid-area: about-me-heading;
 grid-area: about-me-content;
 display: flex;
 align-content: flex-start;
-
 }
 
 #work-heading{
@@ -225,7 +224,6 @@ grid-area: contact-content;
   grid-area: padding-right;
 }
 
-
 a {
 text-decoration: none;
 }
@@ -308,35 +306,55 @@ padding-left:30px;
 
 
 
-/*--below is media queries for adapting to different media devices
 
 @media only screen and (max-width: 1000px) {
   
   main {
-    grid-template-rows: 220px 400px 500px 200px 200px 200px 200px 200px 100px 25px;
-    grid-template-columns: 200px 1fr 35px;
+    display: grid;
+    width: 100%;
+    /* below determine structure of grid inc. number of rows & columns and sizes */
+    min-height: auto;
+    row-gap: 30px;
+    column-gap: 30px;
+    grid-template-rows: 220px 450px 600px 200px 200px 200px 200px 100px 25px;
+    grid-template-columns: 200px 2fr 2fr 15px;
     grid-template-areas: 
-    "hero-image hero-image hero-image"
-    "about-me-heading about-me-content padding-right" 
-    "work-heading work-content-large padding-right"
-    "work-heading work-content-small1 padding-right"
-    "work-heading work-content-small2 padding-right"
-    "work-heading work-content-small3 padding-right"
-    "work-heading work-content-small4 padding-right"
-    "contact-heading contact-content  padding-right"
-    "padding-bottom padding-bottom padding-bottom";
+    "hero-image hero-image hero-image hero-image"
+    "about-me-heading about-me-content about-me-content padding-right" 
+    "work-heading work-content-large work-content-large padding-right"
+    "work-heading work-content-small1 work-content-small1 padding-right"
+    "work-heading work-content-small2 work-content-small2 padding-right"
+    "work-heading work-content-small3 work-content-small3 padding-right"
+    "work-heading work-content-small4 work-content-small4 padding-right"
+    "contact-heading contact-content contact-content padding-right"
+    "padding-bottom padding-bottom padding-bottom padding-bottom";
     }
+    
 
+    #about-me-content img {
+      height: 100%;
+      width: auto;
+      display: none;
+      }
+      
 
-    */
+    .contact-content {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+      }
 
+    .navbutton {
+      width: auto;
+      font-size: 12px;
+      font-family: var(--fontfamily);
+      font-weight: bold;
+      color: var(--color2);
+      padding-left: 3px;
+      padding-right: 3px;
+      border-bottom: 3px solid var(--color2);
+      }
 
-
-
-
-
-
-
-
-
-
+    }
