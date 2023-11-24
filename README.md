@@ -23,7 +23,7 @@ Here are the critical requirements necessary to develop a portfolio that satisfi
 
 The following animation shows the web application's required (similar) appearance and functionality:
 
-![alt text](assets/images/01-css-challenge-demo.gif)
+![alt text](assets/Images/01-css-challenge-demo.gif)
 
 <strong>Links</strong>
 
