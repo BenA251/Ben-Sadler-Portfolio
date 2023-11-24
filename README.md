@@ -22,7 +22,8 @@ Here are the critical requirements necessary to develop a portfolio that satisfi
 * When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
 
 The following animation shows the web application's required (similar) appearance and functionality:
-![portfolio demo](./images/01-css-challenge-demo.gif)
+
+![alt text](assets/images/01-css-challenge-demo.gif)
 
 
 <strong>Links</strong>
