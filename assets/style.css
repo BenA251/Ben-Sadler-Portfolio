@@ -131,14 +131,14 @@ grid-area: work-heading;
   position: relative;
   border:solid var(--color2);
   border-width: var(--borderwidth2);
-  background-image: url("./images/PortfolioImage.jpg");
+  background-image: url("./Images/PortfolioImage.jpg");
   justify-content: space-around;
   background-size: cover;
 }
 
 #work-content-large:hover{
   min-height:auto;
-  background:linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("./images/PortfolioImage.jpg");
+  background:linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("./Images/PortfolioImage.jpg");
   background-size:cover;
 }
 
@@ -147,14 +147,14 @@ grid-area: work-heading;
   position: relative;
   border:solid var(--color2);
   border-width: var(--borderwidth2);
-  background-image: url("./images/Refactorcodeimage.jpg");
+  background-image: url("./Images/Refactorcodeimage.jpg");
   justify-content: space-around;
   background-size: cover;
 }
 
 #work-content-small1:hover{
   min-height:auto;
-  background:linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("./images/Refactorcodeimage.jpg");
+  background:linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("./Images/Refactorcodeimage.jpg");
   background-size:cover;
 }
 
@@ -163,14 +163,14 @@ grid-area: work-heading;
   position: relative;
   border:solid var(--color2);
   border-width: var(--borderwidth2);
-  background-image: url("./images/Studyguideimage.jpg");
+  background-image: url("./Images/Studyguideimage.jpg");
   justify-content: space-around;
   background-size: cover;
 }
 
 #work-content-small2:hover{
   min-height:auto;
-  background:linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("./images/Studyguideimage.jpg");
+  background:linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("./Images/Studyguideimage.jpg");
   background-size:cover;
 }
 
@@ -179,14 +179,14 @@ grid-area: work-heading;
   position: relative;
   border:solid var(--color2);
   border-width: var(--borderwidth2);
-  background-image: url("./images/Comingsoonimage.jpg");
+  background-image: url("./Images/Comingsoonimage.jpg");
   justify-content: space-around;
   background-size: cover;
 }
 
 #work-content-small3:hover{
   min-height:auto;
-  background:linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("./images/Comingsoonimage.jpg");
+  background:linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("./Images/Comingsoonimage.jpg");
   background-size:cover;
 }
 
@@ -195,14 +195,14 @@ grid-area: work-heading;
   position: relative;
   border:solid var(--color2);
   border-width: var(--borderwidth2);
-  background-image: url("./images/Comingsoonimage.jpg");
+  background-image: url("./Images/Comingsoonimage.jpg");
   justify-content: space-around;
   background-size: cover;
 }
 
 #work-content-small4:hover{
   min-height:auto;
-  background:linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("./images/Comingsoonimage.jpg");
+  background:linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("./Images/Comingsoonimage.jpg");
   background-size:cover;
 }
 
