@@ -25,7 +25,6 @@ The following animation shows the web application's required (similar) appearanc
 
 ![alt text](assets/images/01-css-challenge-demo.gif)
 
-
 <strong>Links</strong>
 
 Website: https://bena251.github.io/Ben-Sadler-Portfolio/ <br>
@@ -40,7 +39,7 @@ The links on top navigation bar can be used to jump to specific sections within 
 
 <strong>Homepage Screenshot:</strong> <br>
 
-![alt text](assets/images/Screenshot.png)
+![alt text](assets/Images/Screenshot.png)
 
 
 ## Credits
