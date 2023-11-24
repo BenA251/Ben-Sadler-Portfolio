@@ -33,9 +33,10 @@ Website Repository: https://github.com/BenA251/Ben-Sadler-Portfolio
 
 ## Usage 
 
-A Marketing agency website homepage, 
+A Personal Portfolio page,
 
 The links on top navigation bar can be used to jump to specific sections within homepage.
+
 
 <strong>Homepage Screenshot:</strong> <br>
 
